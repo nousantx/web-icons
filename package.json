@@ -1,0 +1,23 @@
+{
+  "name": "nosant-icon",
+  "version": "1.0.0",
+  "description": "Simple icons pack for website.",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nousantx/web-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "css"
+  ],
+  "author": "NOuSantx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nousantx/web-icons/issues"
+  },
+  "homepage": "https://github.com/nousantx/web-icons#readme"
+}
