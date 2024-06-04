@@ -1,6 +1,6 @@
 {
   "name": "nosant-icon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple icons pack for website.",
   "main": "index.css",
   "scripts": {
@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/nousantx/web-icons.git"
   },
-  "keywords": [
-    "icons",
-    "css"
-  ],
+  "keywords": ["icons", "css"],
   "author": "NOuSantx",
   "license": "MIT",
   "bugs": {
