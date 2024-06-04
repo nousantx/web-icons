@@ -1,22 +1,26 @@
 @font-face {
-  font-family: tx-icon;
-  src: url("fonts/tx-icon.eot?ma0ni9");
-  src: url("fonts/tx-icon.eot?ma0ni9#iefix") format("embedded-opentype"),
-    url("fonts/tx-icon.ttf?ma0ni9") format("truetype"),
-    url("fonts/tx-icon.woff?ma0ni9") format("woff"),
-    url("fonts/tx-icon.svg?ma0ni9#tx-icon") format("svg");
-  font-weight: 400;
+  font-family: 'tx-icon';
+  src:  url('fonts/tx-icon.eot?tw9ou6');
+  src:  url('fonts/tx-icon.eot?tw9ou6#iefix') format('embedded-opentype'),
+    url('fonts/tx-icon.ttf?tw9ou6') format('truetype'),
+    url('fonts/tx-icon.woff?tw9ou6') format('woff'),
+    url('fonts/tx-icon.svg?tw9ou6#tx-icon') format('svg');
+  font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-.txi {
-  font-family: tx-icon !important;
+
+.ti {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tx-icon' !important;
   speak: never;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  
+  /* Enable Ligatures ================ */
   letter-spacing: 0;
   -webkit-font-feature-settings: "liga";
   -moz-font-feature-settings: "liga=1";
@@ -25,9 +29,12 @@
   font-feature-settings: "liga";
   -webkit-font-variant-ligatures: discretionary-ligatures;
   font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .ti-vtx_part_1:before {
   content: "\e901";
 }
@@ -103,9 +110,6 @@
 .ti-discord:before {
   content: "\e907";
 }
-.ti-controller:before {
-  content: "\e908";
-}
 .ti-web:before {
   content: "\e9c9";
 }
@@ -124,7 +128,7 @@
 .ti-deviantart:before {
   content: "\eaaa";
 }
-.ti-github_square:before {
+.ti-github_circle:before {
   content: "\eab0";
 }
 .ti-linkedin:before {
